@@ -1,0 +1,63 @@
+/*
+
+Colore sfondo canvas: #2C3E50;
+
+*/
+
+@font-face {
+    font-family: 'RetroGameFont';
+    src: url('./fonts/VCR_OSD_MONO_1.001.ttf');
+}
+
+html {
+    margin: 0;
+    height: 100%;
+    font-family: 'RetroGameFont';
+}
+
+body {
+    margin: 0;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.canvas {
+    background-color: #2C3E50;
+    border: 1px solid white;
+}
+
+.start-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.start-info p {
+    margin: 0;
+}
+
+.game-div {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.user-info {
+    border: 2px solid #2C3E50;
+    color: #2C3E50;
+    font-size: 0.9em;
+    padding: 10px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+h2 {
+    font-weight: bold;
+}
